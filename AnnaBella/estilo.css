@@ -1,0 +1,45 @@
+/*tags*/
+a{
+	text-decoration: none;
+	color:#696969;
+	font-weight:bold;
+
+}
+
+/*classes*/
+.fundo{
+	background-image: url("imagens/fundo.png");
+
+}
+.pagina{
+	width: 900px;
+}
+.titulo{
+	color: #808080;
+}
+.footer{
+	padding-top: 10px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.borda{
+	border:10px solid #c3c3ab;
+}
+.negrito{
+	font-weight: bold;
+}
+/*IDs*/
+#menu{
+	padding-left: 15px;
+	height: 55px;
+	color:#696969;
+	background-color: #D3D3D3;	
+	font-family: "Verdana", "Times New Roman", sans-serif;
+}
+
+#conteudo{
+	background-color:white;
+	padding: 10px;
+}
+

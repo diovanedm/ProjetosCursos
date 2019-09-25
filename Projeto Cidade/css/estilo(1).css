@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/*topo do site*/
+header{
+    width: 100%;
+    height: 230px;
+    background: url(../imagens/fundo.png) repeat-x;
+}
+
+#topo{
+    width: 60%;
+    height: 230px;
+    margin: auto;
+}
+
+#logo{
+    margin: 15px 10px;
+}
+#detalheTopo{
+    margin-right: 17px;
+    float: right;
+}
+
+#menu{
+
+    margin-top: 5px;
+    margin-left: 5px; 
+    background: rgb(129, 19, 19);
+    display: inline-block;
+    padding: 2px 25px;
+    /* padding: 15px 10px;  */
+
+}
+
+#menu li{
+    display: inline;
+}
+
+#menu a:link {
+    text-decoration: none;
+    color: white;
+}
+
+#menu li a{
+    /* border: 1px solid black; */
+    padding: 15px 15px;
+    background: rgb(129, 19, 19);
+    display: inline-block;
+}
+
+.divisor{
+    border-left: 2px solid rgb(141, 21, 21);
+}
+
+
+
+
+
+
+

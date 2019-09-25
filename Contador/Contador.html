@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Contador</title>
+        <link rel="stylesheet" href="estilo.css">
+    </head>
+    <body>
+        <!-- Cabeçalho -->
+        <header>
+            <h1>Contador</h1>
+        </header>
+
+        <!-- Conteúdo Principal -->
+        <section>
+            <div>
+                <p>Digite um numero (1 a 100):
+                    <input type="number" name="num" id="num">
+                    <input type="button" value="resultado" onclick="contador()">
+                </p>
+                <p>
+                    <select name="box" id="box" size="10"></select>
+                </p>
+                <p>
+                    <input type="button" value="finalizar" onclick="finalizar()">
+                    <p id="texto"></p>
+                </p>
+            </div>
+        </section>
+
+        <!-- Rodapé -->
+        <footer>
+            <p>&copy; CursoemVideo</p>
+        </footer>
+
+        <script src="script.js"></script>
+
+    </body>
+</html>
